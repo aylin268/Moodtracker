@@ -1,8 +1,8 @@
 import React from "react";
 import { View, Pressable, StyleSheet, Text, Animated as RNAnimated } from "react-native";
 import Animated, { useSharedValue, withTiming, useAnimatedStyle, withSpring } from "react-native-reanimated";
-import { SmileyFace } from "./components/SmileyFace";
-import { colors } from "./constants/colors";
+import { SmileyFace } from "./SmileyFace";
+import { colors } from "./colors";
 
 const moods = [
   { 

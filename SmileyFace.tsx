@@ -7,7 +7,7 @@ import Animated, {
   SharedValue,
 } from "react-native-reanimated";
 import Arch from "./Arch";
-import { colors } from "../constants/colors";
+import { colors } from "./colors";
 
 interface SmileyFaceProps {
   translateX: SharedValue<number>;
